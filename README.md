@@ -1,6 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to the Division of Psychiatry ABCD Data User Manual
 
-You can use the [editor on GitHub](https://github.com/niamhmacsweeney/ABCD_data_management/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Compiled by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk). If you spot any errors or have information to add, please get in touch! 
+
+The purpose of this manual is to provide you with the information needed to access and work with the ABCD data. You should only access this data if you have been named on the most recent Data User Certificate (DUC) approved by the NDA. If you have any queries about the DUC, please contact niamh.macsweeney@ed.ac.uk or heather.whalley@ed.ac.uk. The most recent DUC is dated November 2021. 
+
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -11,7 +15,16 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
+# Getting started
+
+To begin, it is recommended that you consult
+
+# How do I access the data?
+
+ABCD data is managed by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk) and Gladi Thng (j.g.thng@sms.ed.ac.uk). The ABCD Study team have an annual curated data release around November each year. The most recent data release (4.0) was made available in early November 2021. The data managers downloaded this curated data release, converted the .txt files into .Rds files and these files are stored at the following folder path: 
+
+
+
 ## Header 2
 ### Header 3
 
