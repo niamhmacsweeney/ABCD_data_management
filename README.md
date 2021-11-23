@@ -15,7 +15,7 @@ To begin, it is recommended that you consult the following resources before work
 
 1. This preprint: “A practical guide for researchers and reviewers using the ABCD Study and other large longitudinal datasets" doi: to go here
 
-    This paper is intended as a guide for researchers and reviewers working with ABCD data, highlighting the features of the data (and the strengths and limitations therein) as well as relevant analytical and methodological considerations. It arose out of discussions from the Modelling Developmental Change ABCD Workshop held in July 2021. It is strongly encouraged that you consult this document when designing your ABCD project as the information contained within provides an excellent framework to ease you into working with large, multi-modal datasets like ABCD. This paper is fairly comprehensive in temrs of giving you the tools to get started working with ABCD and it's recommended that this is your first port-of-call when starting an ABCD Project. It also makes reference to the resources detailed below (e.g., ABCD workshop, data dictionary, DEAP etc.) 
+    This paper is intended as a guide for researchers and reviewers working with ABCD data, highlighting the features of the data (and the strengths and limitations therein) as well as relevant analytical and methodological considerations. It arose out of discussions from the Modelling Developmental Change ABCD Workshop held in July 2021. It is strongly encouraged that you consult this document when designing your ABCD project as the information contained within provides an excellent (and fairly comprehensive) framework to ease you into working with large, multi-modal datasets like ABCD. It also goes into greater details about the resources listed below (e.g., ABCD workshop, data dictionary, DEAP etc.) 
     
     **NOTE** - The paper is currently under review at Developmental Cognitive Neuroscience as a Next Gen Tools paper. This page will be updated once the final version is available. 
     
@@ -23,16 +23,22 @@ To begin, it is recommended that you consult the following resources before work
  2. Modelling Developmental Change ABCD Workshop Website: https://abcdworkshop.github.io
 
     There are SO many amazing resources on this website including lectures, videos, hands-on tutorials and code. Niamh MacSweeney attended the 2021 workshop so if      you have any questions, please reach out to her. 
+        
+ 3. ABCD Data Dictionary: https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B2.0&submission=ALL
+
+    The data dictionary is a good resource for checking variable names within specific measures. See "Practical guide" paper for a detailed walk through of the data dictionary. 
     
-
-
-ABCD Data Dictionary: https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B2.0&submission=ALL
+ 4. Data Exploration Analysis Portal (DEAP; deap.nimhda.org)
     
-    The ABCD data dictionary 
+    Researchers with NDA access are granted access to DEAP a statistical analysis platform wherein researchers can readily engage with the ABCD data, such as exploring variables, downloading data, or running analyses. This is really handy for quickly checking what variables exist within ABCD, and is a bit easier to navigate than the data dictionary. You can also create personalised data frames with variables from different measures (e.g., age, sex, BDI) by adding the variables of interest "to your cart" and then downloading your dataframe as a .Rdata file. This is explained in more detail in the "Practical guide" paper and is a lifesaver for creating covariate dataframes because it saves you from extracting the variables of interest from lots of different individual data frames (i.e., .Rds or .txt files).  
+    
+    5. ABCD ReproNim course: https://www.abcd-repronim.org
 
-        The information contained in the rest of this document relate to more local details (path folders 
+    This is a fairly lengthy course but is broken up into specific topics and focuses on reproducible analysis methods. It is a good way to familiarise yourself with your research area through an "ABCD lens" and also discusses the design and development of the baseline data collection. 
 
-# How do I access the data?
+
+
+### How do I access the data?
 
 ABCD data is managed by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk) and Gladi Thng (j.g.thng@sms.ed.ac.uk). The ABCD Study team have an annual curated data release around November each year. The most recent data release (4.0) was made available in early November 2021. The data managers downloaded this curated data release and converted the .txt files into .Rds files. All of the ABCD files are stored in .Rds format but if you would like the files in .txt format, please get in touch to the data managers. 
 
@@ -45,8 +51,13 @@ We have categorised the data into different folders such as Mental_Health, Physi
 
 In order to understand the data contained within each folder, you need to:
 
-1. Consult the ABCD release 4.0 notes, which can be found at this folder path: /Volumes/GenScotDepression/data/abcd/release4.0/release_notes
-2. Look at the ABCD data dicto
+1. Consult the ABCD Master Data dictionary file (Master_abcd4_wcat_data_dictionary.csv) which is located in: ../data/abcd/release4.0/iii.data
+    This data dictionary details every variable contained within the data release. You can filter by category (e.g., Mental_Health) to make navigating the spread sheet easier.
+    
+    As a starting point, you should get your field name of interest from the "ABCD data dictionary" (e.g., abcd_cbcl01) 
+
+3. Consult the ABCD release 4.0 notes, which can be found at this folder path: /Volumes/GenScotDepression/data/abcd/release4.0/release_notes
+4. Look at the ABCD data dictionary
 
 
 
