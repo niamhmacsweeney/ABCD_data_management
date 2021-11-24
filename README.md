@@ -91,7 +91,7 @@ Ideally, we would like to create resource whereby group members can list the kin
    -  Niamh MacSweeney (niamh.macsweeney@ed.ac.uk): Structural (T1, DTI) imaging data; puberty (physical and hormonal) data; depression (KSADS, CBCL) measures; demographic measures. 
 
 
-## Acknowledgements 
+### Acknowledgements 
     
 When preparing your ABCD manuscript for publication, please make sure you consult and follow the information outlined on the NDA website, which can be found at this <a href="https://nda.nih.gov/get/manuscript-preparation.html">link </a>
     
