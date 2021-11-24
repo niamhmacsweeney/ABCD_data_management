@@ -54,7 +54,9 @@ Once you have an idea of existing ABCD research, it is recommended that you cons
 
 ## How do I access the data?
 
-ABCD data is managed by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk) and Gladi Thng (j.g.thng@sms.ed.ac.uk). The ABCD Study team have an annual curated data release around November each year. The most recent data release (4.0) was made available in early November 2021. The data managers downloaded this curated data release and converted the .txt files into .Rds files. All of the ABCD files are stored in .Rds format but if you would like the files in .txt format, please get in touch to the data managers. 
+ABCD data is managed by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk) and Gladi Thng (j.g.thng@sms.ed.ac.uk). The earlier releases of the ABCD data were managed by X.Shen and a huge thanks to Shen for the help with data management with the current release!
+
+The ABCD Study team have an annual curated data release around November each year. The most recent **data release (4.0)** was made available in early November 2021. The data managers downloaded this curated data release and converted the .txt files into .Rds files. All of the ABCD files are stored in .Rds format but if you would like the files in .txt format, please get in touch to the data managers. 
 
 The ABCD data is stored on the GenScotDepression DataStore. DataStore is a University computer storage cluster and the GenScotDepression is our designated storage space. GenScotDepresison is managed by Dr Mark Adams (Research Fellow in the Division of Pyschiatry). If you do not already have access to the GenScotDepression DataStore, please get in touch with Mark (mark.adams@ed.ac.uk) and kindly ask him to grant you access to this shared storage. We recommend creating your own personal folder within the user folder, e.g., users/your_name and keeping all your files associated with ABCD there. 
 
