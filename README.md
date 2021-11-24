@@ -54,7 +54,7 @@ Once you have an idea of existing ABCD research, it is recommended that you cons
 
 ## How do I access the data?
 
-ABCD data is managed by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk) and Gladi Thng (j.g.thng@sms.ed.ac.uk). The earlier releases of the ABCD data were managed by X.Shen and a huge thanks to Shen for the help with data management with the current release!
+ABCD data is managed by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk) and Gladi Thng (j.g.thng@sms.ed.ac.uk). The earlier releases of the ABCD data were managed by X.Shen and a huge thanks to Shen for the help with the data management of the current release!
 
 The ABCD Study team have an annual curated data release around November each year. The most recent **data release (4.0)** was made available in early November 2021. The data managers downloaded this curated data release and converted the .txt files into .Rds files. All of the ABCD files are stored in .Rds format but if you would like the files in .txt format, please get in touch to the data managers. 
 
