@@ -15,7 +15,7 @@ Before you start planning your own ABCD Study, you should check what research us
 
 1. Existing studies of ABCD data found on the ABCD Study website under the <a href="https://abcdstudy.org/publications/">Publications tab </a>
 2. 2. NDA "<a href="https://nda.nih.gov/general-query.html?q=query=studies%20~and~%20dataRepositories=Adolescent%20Brain%20Cognitive%20Development%20~and~%20orderBy=id%20~and~%20orderDirection=Ascending">Data from Papers </a> page also has a list of studies that use ABCD data (please see Acknowledgements section for further info on creating an NDA study ID -         you must do this prior to submitting any ABCD paper for publication. 
-3. Preregistered studies that plan to use ABCD data can be found on platforms like the <a href= "https://osf.io/search/"< Open Science Framework</a> 
+3. Preregistered studies that plan to use ABCD data can be found on platforms like the <a href= "https://osf.io/search/"> Open Science Framework </a> 
 
 Once you have an idea of existing ABCD research, it is recommended that you consult the following resources before working with the ABCD Data:
 
