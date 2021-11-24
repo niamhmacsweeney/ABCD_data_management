@@ -14,7 +14,7 @@ All named recipients on the DUC need to create an NDA acccount with **University
 Before you start planning your own ABCD Study, you should check what research using the ABCD data has been published to date. We recommend checking the following databases/lists to get idea of what has been done with the data so far (note, these resources are not comprehensive and may be overlapping but they are a good starting point)
 
 1. Existing studies of ABCD data found on the ABCD Study website under the <a href="https://abcdstudy.org/publications/">Publications tab </a>
-2. 2. NDA "<a href="https://nda.nih.gov/general-query.html?q=query=studies%20~and~%20dataRepositories=Adolescent%20Brain%20Cognitive%20Development%20~and~%20orderBy=id%20~and~%20orderDirection=Ascending">Data from Papers </a> page also has a list of studies that use ABCD data (please see Acknowledgements section for further info on creating an NDA study ID -         you must do this prior to submitting any ABCD paper for publication. 
+2. NDA "<a href="https://nda.nih.gov/general-query.html?q=query=studies%20~and~%20dataRepositories=Adolescent%20Brain%20Cognitive%20Development%20~and~%20orderBy=id%20~and~%20orderDirection=Ascending">Data from Papers </a> page also has a list of studies that use ABCD data (please see Acknowledgements section for further info on creating an NDA study ID -         you must do this prior to submitting any ABCD paper for publication. 
 3. Preregistered studies that plan to use ABCD data can be found on platforms like the <a href= "https://osf.io/search/"> Open Science Framework </a> 
 
 Once you have an idea of existing ABCD research, it is recommended that you consult the following resources before working with the ABCD Data:
