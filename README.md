@@ -59,7 +59,7 @@ ABCD data is managed by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk) and Gladi T
 The ABCD data is stored on the GenScotDepression DataStore. DataStore is a University computer storage cluster and the GenScotDepression is our designated storage space. GenScotDepresison is managed by Dr Mark Adams (Research Fellow in the Division of Pyschiatry). If you do not already have access to the GenScotDepression DataStore, please get in touch with Mark (mark.adams@ed.ac.uk) and kindly ask him to grant you access to this shared storage. We recommend creating your own personal folder within the user folder, e.g., users/your_name and keeping all your files associated with ABCD there. 
 
 
-## File path for ABCD Data and associated documents 
+### File path for ABCD Data and associated documents 
 
 **The ABCD data is stored at the following folder path: /Volumes/GenScotDepression/data/abcd/release4.0/iii.data**
 
@@ -81,9 +81,10 @@ In order to understand the data contained within each folder, you need to:
     
 The ABCD study team very much encourage researchers to pre-register their analyses on platforms like the OSF. Further details about pre-registration can be found in the "Practical Guide for Researchers" pre-print linked above. 
     
- ## ABCD Research Topics and Areas of Expertise
+ ### ABCD Research Topics and Areas of Expertise
     
     Ideally, we would like to create resource whereby group members can list the kinds of ABCD data they have worked with. This could then serve as a directory that people could consult when starting projects and will aid sharing code and expertise within the group. 
+    
     
    -  Niamh MacSweeney: Structural (T1, DTI) imaging data; puberty (physical and hormonal) data; depression (KSADS, CBCL) measures; demographic measures. 
 
