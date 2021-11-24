@@ -11,16 +11,22 @@ All named recipients on the DUC need to create an NDA acccount with **University
 
 ### Getting Started
 
-To begin, it is recommended that you consult the following resources before working with the ABCD Data:
+Before you start planning your own ABCD Study, you should check what research using the ABCD data has been published to date. We recommend checking the following databases/lists to get idea of what has been done with the data so far (note, these resources are not comprehensive and may be overlapping but they are a good starting point)
 
-1. ABCD Study Protocols: <a href="https://abcdstudy.org/scientists/protocols/">https://abcdstudy.org/scientists/protocols/</a>
+1. Existing studies of ABCD data found on the ABCD Study website under the <a href="https://abcdstudy.org/publications/">publications</a>
+2. 2. NDA "<a href="https://nda.nih.gov/general-query.html?q=query=studies%20~and~%20dataRepositories=Adolescent%20Brain%20Cognitive%20Development%20~and~%20orderBy=id%20~and~%20orderDirection=Ascending">Data from Papers </a> page also has a list of studies that use ABCD data (please see Acknowledgements section for further info on creating an NDA study ID -         you must do this prior to submitting any ABCD paper for publication. 
+3. Preregistered studies that plan to use ABCD data can be found on platforms like the <a href= "https://osf.io/search/"< Open Science Framework</a> 
+
+Once you have an idea of existing ABCD research, it is recommended that you consult the following resources before working with the ABCD Data:
+
+_1. ABCD Study Protocols: <a href="https://abcdstudy.org/scientists/protocols/">https://abcdstudy.org/scientists/protocols/</a>_
 
     The ABCD Study has excellent documentation of assessment protocols for every wave. At a high level, data collection protocols outline the following: an annual comprehensive battery of physical health, mental health, substance use, culture and environment, and biospecimens; a bi-annual (every 24 months) MRI scan; and intermediate mid-year phone assessments of youth behavior, substance use, and affect.
     
     You are also encouraged to consult existing literature that uses ABCD data to see if there are any published guidelines or protocols for your variables of interest. For example, guidelines for working with the imaging (e.g., <a href="https://doi.org/10.1016/j.neuroimage.2019.116091">Hagler et al., 2019</a> ;<a href="https://doi.org/10.1038/s41593-021-00867-9"> Chaarani et al., 2021</a>), cognition (<a href="https://doi.org/10.1016/j.dcn.2018.02.006">Luciana et al., 2018</a>), puberty measures (<a href="https://doi.org/10.3389/fendo.2021.608575">Cheng et al., 2021</a>; <a href="https://dx.doi.org/10.3389%2Ffendo.2020.549928">Herting & Uban, et al., 2021</a>), assessment of culture and environment (<a href="https://doi.org/10.1016/j.dcn.2021.101021">Gonzales et al., 2021</a>) and substance use behavior (<a href="https://doi.org/10.1016/j.dcn.2018.02.007">Lisdahl et al., 2018</a>) have been published to date.
 
 
-2. This preprint: “A practical guide for researchers and reviewers using the ABCD Study and other large longitudinal datasets" doi: to go here
+_2. This preprint: “A practical guide for researchers and reviewers using the ABCD Study and other large longitudinal datasets" doi: to go here_
 
     This paper is intended as a guide for researchers and reviewers working with ABCD data, highlighting the features of the data (and the strengths and limitations therein) as well as relevant analytical and methodological considerations. It arose out of discussions from the Modelling Developmental Change ABCD Workshop held in July 2021. It is strongly encouraged that you consult this document when designing your ABCD project as the information contained within provides an excellent (and fairly comprehensive) framework to ease you into working with large, multi-modal datasets like ABCD. It also goes into greater details about the resources listed below (e.g., ABCD workshop, data dictionary, DEAP etc.) 
     
@@ -28,19 +34,19 @@ To begin, it is recommended that you consult the following resources before work
     **NOTE** - The paper is currently under review at Developmental Cognitive Neuroscience as a Next Gen Tools paper. This page will be updated once the final version is available. 
     
     
- 3. Modelling Developmental Change ABCD Workshop Website:  <a href="https://abcdworkshop.github.io">https://abcdworkshop.github.io</a>
+_3. Modelling Developmental Change ABCD Workshop Website:  <a href="https://abcdworkshop.github.io">https://abcdworkshop.github.io</a>_
 
     There are SO many amazing resources on this website including lectures, videos, hands-on tutorials and code. Niamh MacSweeney attended the 2021 workshop so if      you have any questions, please reach out to her. 
         
- 4. ABCD Data Dictionary: <a href="https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B4.0&submission=ALL">Found at this link</a>
+ _4. ABCD Data Dictionary: <a href="https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B4.0&submission=ALL">Found at this link</a>_
 
     The data dictionary is a good resource for checking variable names within specific measures. See "Practical guide" paper for a detailed walk through of the data dictionary. 
     
- 5. Data Exploration Analysis Portal (DEAP; <a href="https://deap.nimhda.org/applications/User/login.php?url=/index.php">deap.nimhda.org<a/>)
+ _5. Data Exploration Analysis Portal (DEAP; <a href="https://deap.nimhda.org/applications/User/login.php?url=/index.php">deap.nimhda.org<a/>)_
     
     Researchers with NDA access (your DEAP login details are the same as your NDA ones) are granted access to DEAP a statistical analysis platform wherein researchers can readily engage with the ABCD data, such as exploring variables, downloading data, or running analyses. This is really handy for quickly checking what variables exist within ABCD, and is a bit easier to navigate than the data dictionary. You can also create personalised data frames with variables from different measures (e.g., age, sex, BDI) by adding the variables of interest "to your cart" and then downloading your dataframe as a .Rdata file. This is explained in more detail in the "Practical guide" paper and is a lifesaver for creating covariate dataframes because it saves you from extracting the variables of interest from lots of different individual data frames (i.e., .Rds or .txt files).  
     
-    6. ABCD ReproNim course: <a href= "https://www.abcd-repronim.org">https://www.abcd-repronim.org<a/>
+    _6. ABCD ReproNim course: <a href= "https://www.abcd-repronim.org">https://www.abcd-repronim.org<a/>_
 
     This is a fairly lengthy course but is broken up into specific topics and focuses on reproducible analysis methods. It is a good way to familiarise yourself with your research area through an "ABCD lens" and also discusses the design and development of the baseline data collection. 
 
