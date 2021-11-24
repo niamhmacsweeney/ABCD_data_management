@@ -86,7 +86,7 @@ The ABCD study team very much encourage researchers to pre-register their analys
 Ideally, we would like to create resource whereby group members can list the kinds of ABCD data they have worked with. This could then serve as a directory that people could consult when starting projects and will aid sharing code and expertise within the group. 
     
     
-   -  Niamh MacSweeney: Structural (T1, DTI) imaging data; puberty (physical and hormonal) data; depression (KSADS, CBCL) measures; demographic measures. 
+   -  Niamh MacSweeney (niamh.macsweeney@ed.ac.uk): Structural (T1, DTI) imaging data; puberty (physical and hormonal) data; depression (KSADS, CBCL) measures; demographic measures. 
 
 
 ## Acknowledgements 
