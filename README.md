@@ -17,32 +17,30 @@ To begin, it is recommended that you consult the following resources before work
 
     The ABCD Study has excellent documentation of assessment protocols for every wave. At a high level, data collection protocols outline the following: an annual comprehensive battery of physical health, mental health, substance use, culture and environment, and biospecimens; a bi-annual (every 24 months) MRI scan; and intermediate mid-year phone assessments of youth behavior, substance use, and affect.
     
-    You are also encouraged to consult existing literature that uses ABCD data to see if there are any published guidelines or protocols for your variables of interest. For example, guidelines for working with the imaging (e.g., <a href="https://doi.org/10.1016/j.neuroimage.2019.116091">Hagler et al., 2019</a> ;<a href="https://doi.org/10.1038/s41593-021-00867-9"> Chaarani et al., 2021</a>), cognition (<a href="https://doi.org/10.1016/j.dcn.2018.02.006">Luciana et al., 2018</a>), puberty measures (<a href="https://doi.org/10.3389/fendo.2021.608575">Cheng et al., 2021</a>; <a href="https://dx.doi.org/10.3389%2Ffendo.2020.549928">Herting & Uban, et al., 2021</a>), assessment of culture and environment (<a href="https://doi.org/10.1016/j.dcn.2021.101021">Gonzales et al., 2021</a>) and substance use behavior (<a href="https://doi.org/10.1016/j.dcn.2018.02.007">Lisdahl et al., 2018</a>)have been published to date.
+    You are also encouraged to consult existing literature that uses ABCD data to see if there are any published guidelines or protocols for your variables of interest. For example, guidelines for working with the imaging (e.g., <a href="https://doi.org/10.1016/j.neuroimage.2019.116091">Hagler et al., 2019</a> ;<a href="https://doi.org/10.1038/s41593-021-00867-9"> Chaarani et al., 2021</a>), cognition (<a href="https://doi.org/10.1016/j.dcn.2018.02.006">Luciana et al., 2018</a>), puberty measures (<a href="https://doi.org/10.3389/fendo.2021.608575">Cheng et al., 2021</a>; <a href="https://dx.doi.org/10.3389%2Ffendo.2020.549928">Herting & Uban, et al., 2021</a>), assessment of culture and environment (<a href="https://doi.org/10.1016/j.dcn.2021.101021">Gonzales et al., 2021</a>) and substance use behavior (<a href="https://doi.org/10.1016/j.dcn.2018.02.007">Lisdahl et al., 2018</a>) have been published to date.
 
 
-
-1. This preprint: “A practical guide for researchers and reviewers using the ABCD Study and other large longitudinal datasets" doi: to go here
+2. This preprint: “A practical guide for researchers and reviewers using the ABCD Study and other large longitudinal datasets" doi: to go here
 
     This paper is intended as a guide for researchers and reviewers working with ABCD data, highlighting the features of the data (and the strengths and limitations therein) as well as relevant analytical and methodological considerations. It arose out of discussions from the Modelling Developmental Change ABCD Workshop held in July 2021. It is strongly encouraged that you consult this document when designing your ABCD project as the information contained within provides an excellent (and fairly comprehensive) framework to ease you into working with large, multi-modal datasets like ABCD. It also goes into greater details about the resources listed below (e.g., ABCD workshop, data dictionary, DEAP etc.) 
     
-    This paper also lists a number of protocol papers that have been written for 
     
     **NOTE** - The paper is currently under review at Developmental Cognitive Neuroscience as a Next Gen Tools paper. This page will be updated once the final version is available. 
     
     
- 2. Modelling Developmental Change ABCD Workshop Website: https://abcdworkshop.github.io
+ 3. Modelling Developmental Change ABCD Workshop Website: https://abcdworkshop.github.io
 
     There are SO many amazing resources on this website including lectures, videos, hands-on tutorials and code. Niamh MacSweeney attended the 2021 workshop so if      you have any questions, please reach out to her. 
         
- 3. ABCD Data Dictionary: https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B2.0&submission=ALL
+ 4. ABCD Data Dictionary: https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B2.0&submission=ALL
 
     The data dictionary is a good resource for checking variable names within specific measures. See "Practical guide" paper for a detailed walk through of the data dictionary. 
     
- 4. Data Exploration Analysis Portal (DEAP; deap.nimhda.org)
+ 5. Data Exploration Analysis Portal (DEAP; deap.nimhda.org)
     
     Researchers with NDA access are granted access to DEAP a statistical analysis platform wherein researchers can readily engage with the ABCD data, such as exploring variables, downloading data, or running analyses. This is really handy for quickly checking what variables exist within ABCD, and is a bit easier to navigate than the data dictionary. You can also create personalised data frames with variables from different measures (e.g., age, sex, BDI) by adding the variables of interest "to your cart" and then downloading your dataframe as a .Rdata file. This is explained in more detail in the "Practical guide" paper and is a lifesaver for creating covariate dataframes because it saves you from extracting the variables of interest from lots of different individual data frames (i.e., .Rds or .txt files).  
     
-    5. ABCD ReproNim course: https://www.abcd-repronim.org
+    6. ABCD ReproNim course: https://www.abcd-repronim.org
 
     This is a fairly lengthy course but is broken up into specific topics and focuses on reproducible analysis methods. It is a good way to familiarise yourself with your research area through an "ABCD lens" and also discusses the design and development of the baseline data collection. 
 
@@ -68,19 +66,14 @@ In order to understand the data contained within each folder, you need to:
     
     As a starting point, you should get the "short name" of your measure of interest from the "ABCD data dictionary (https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B2.0&submission=ALL) because the .Rds files in the ../iii.data folder correspond to the "short name" measures listed in the data dictionary. For example, the "short name" for the ABCD Parent Child Behavior Checklist Raw Scores Aseba (CBCL) is "abcd_cbcl01" on the ABCD data dictionary and the associated .Rds file is "abcd_cbcl01.rds", which can be found in the "../iii.data/Mental_Health folder. 
 
-3. You also NEED to consult the ABCD release 4.0 notes, which can be found at this folder path: /Volumes/GenScotDepression/data/abcd/release4.0/release_notes in order to understand any changes that have been made to your measures of interest since the last data release. 
-
-5. Look at the ABCD data dictionary
-
-
-
-The ABCD release notes 
+2. You also NEED to consult the ABCD release 4.0 notes, which can be found at this folder path: /Volumes/GenScotDepression/data/abcd/release4.0/release_notes in order to understand any changes that have been made to your measures of interest since the last data release. 
 
 
 
 ## Working with ABCD data 
 
-The ABCD Study team strongly Transparency and reproducibility are very important 
+The ABCD Study team strongly encourage transparent and reproducibible research methods. Software like RMarkdown, which allows you to weave together narrative text and code, can be very useful in making your workflow reproducible because you can document each decision made in the QC process alongside the associated code. 
+
 
 
 
