@@ -48,7 +48,7 @@ Once you have an idea of existing ABCD research, it is recommended that you cons
     
   6. ABCD ReproNim course: <a href= "https://www.abcd-repronim.org">https://www.abcd-repronim.org<a/>
 
-    This is a fairly lengthy course but is broken up into specific topics and focuses on reproducible analysis methods. It is a good way to familiarise yourself with your research area through an "ABCD lens" and also discusses the design and development of the baseline data collection. 
+ This is a fairly lengthy course but is broken up into specific topics and focuses on reproducible analysis methods. It is a good way to familiarise yourself with your research area through an "ABCD lens" and also discusses the design and development of the baseline data collection. 
 
 
 
@@ -75,39 +75,22 @@ In order to understand the data contained within each folder, you need to:
 2. You also NEED to consult the ABCD release 4.0 notes, which can be found at this folder path: /Volumes/GenScotDepression/data/abcd/release4.0/release_notes in order to understand any changes that have been made to your measures of interest since the last data release. 
 
 
-
 ## Working with ABCD data 
 
 The ABCD Study team strongly encourage transparent and reproducibible research methods. Software like RMarkdown, which allows you to weave together narrative text and code, can be very useful in making your workflow reproducible because you can document each decision made in the data processing and quality control steps. 
     
-    The ABCD study has strongly encourage researchers to pre-register their analyses on platforms like the OSF. Further details about pre-registration can be found in the "Practical Guide for Researchers" pre-print linked above. 
+    The ABCD study team very much encourage researchers to pre-register their analyses on platforms like the OSF. Further details about pre-registration can be found in the "Practical Guide for Researchers" pre-print linked above. 
+    
+ ## ABCD Research Topics and Areas of Expertise
+    
+    Ideally, we would like to create resource whereby group members can list the kinds of ABCD data they have worked with. This could then serve as a directory that people could consult when starting projects and will aid sharing code and expertise within the group. 
+    
+    Niamh MacSweeney: Structural (T1, DTI) imaging data; puberty (physical and hormonal) data; depression (KSADS, CBCL) measures; demographic measures. 
 
 
+## Acknowledgements 
+    
+    When preparing your ABCD manuscript for publication, please make sure you consult and follow the information outlined on the NDA website, which can be found at this <a href="https://nda.nih.gov/get/manuscript-preparation.html">link </a>
+    
+  Special thanks for X. Shen, Mark Adams, and Gladi Thng for their assistance with data management. 
 
-
-
-
-
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/niamhmacsweeney/ABCD_data_management/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
