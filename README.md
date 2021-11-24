@@ -61,7 +61,7 @@ The ABCD data is stored on the GenScotDepression DataStore. DataStore is a Unive
 
 ## File path for ABCD Data and associated documents 
 
-The ABCD data is stored at the following folder path: /Volumes/GenScotDepression/data/abcd/release4.0/iii.data
+**The ABCD data is stored at the following folder path: /Volumes/GenScotDepression/data/abcd/release4.0/iii.data**
 
 We have categorised the data into different folders such as Mental_Health, Physical_Health, MRI_T_roi, MRI_QC etc. 
 
