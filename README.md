@@ -32,7 +32,7 @@ To begin, it is recommended that you consult the following resources before work
 
     There are SO many amazing resources on this website including lectures, videos, hands-on tutorials and code. Niamh MacSweeney attended the 2021 workshop so if      you have any questions, please reach out to her. 
         
- 4. ABCD Data Dictionary: <a href="https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B4.0&submission=ALL">https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B4.0&submission=ALL</a>
+ 4. ABCD Data Dictionary: <a href="https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B4.0&submission=ALL">Found at this link</a>
 
     The data dictionary is a good resource for checking variable names within specific measures. See "Practical guide" paper for a detailed walk through of the data dictionary. 
     
