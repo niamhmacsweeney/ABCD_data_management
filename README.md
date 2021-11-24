@@ -13,7 +13,7 @@ All named recipients on the DUC need to create an NDA acccount with **University
 
 To begin, it is recommended that you consult the following resources before working with the ABCD Data:
 
-1. ABCD Study Protocols: https://abcdstudy.org/scientists/protocols/
+1. ABCD Study Protocols: <a href="https://abcdstudy.org/scientists/protocols/">https://abcdstudy.org/scientists/protocols/</a>
 
     The ABCD Study has excellent documentation of assessment protocols for every wave. At a high level, data collection protocols outline the following: an annual comprehensive battery of physical health, mental health, substance use, culture and environment, and biospecimens; a bi-annual (every 24 months) MRI scan; and intermediate mid-year phone assessments of youth behavior, substance use, and affect.
     
@@ -28,11 +28,11 @@ To begin, it is recommended that you consult the following resources before work
     **NOTE** - The paper is currently under review at Developmental Cognitive Neuroscience as a Next Gen Tools paper. This page will be updated once the final version is available. 
     
     
- 3. Modelling Developmental Change ABCD Workshop Website: https://abcdworkshop.github.io
+ 3. Modelling Developmental Change ABCD Workshop Website:  <a href="https://abcdworkshop.github.io">https://abcdworkshop.github.io</a>
 
     There are SO many amazing resources on this website including lectures, videos, hands-on tutorials and code. Niamh MacSweeney attended the 2021 workshop so if      you have any questions, please reach out to her. 
         
- 4. ABCD Data Dictionary: https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B2.0&submission=ALL
+ 4. ABCD Data Dictionary: <a href="https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B4.0&submission=ALL">https://nda.nih.gov/data_dictionary.html?source=ABCD%2BRelease%2B4.0&submission=ALL</a>
 
     The data dictionary is a good resource for checking variable names within specific measures. See "Practical guide" paper for a detailed walk through of the data dictionary. 
     
