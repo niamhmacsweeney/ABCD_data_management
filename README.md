@@ -2,14 +2,14 @@
 
 Compiled by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk). If you spot any errors or have information to add, please get in touch! 
 
-### Background 
+## Background 
 
 The purpose of this manual is to provide you with the information needed to access and work with the ABCD data. You should only access this data if you have been named on the most recent Data User Certificate (DUC) approved by the NDA. If you have any queries about the DUC, please contact niamh.macsweeney@ed.ac.uk or heather.whalley@ed.ac.uk. The most recent DUC is dated November 2021. 
 
 All named recipients on the DUC need to create an NDA acccount with **University of Edinburgh** listed as their institution. You can create a NDA account at this link: https://nda.nih.gov/user/create_account.html
 
 
-### Getting Started
+## Getting Started
 
 Before you start planning your own ABCD Study, you should check what research using the ABCD data has been published to date. We recommend checking the following databases/lists to get idea of what has been done with the data so far (note, these resources are not comprehensive and may be overlapping but they are a good starting point)
 
@@ -52,14 +52,14 @@ Once you have an idea of existing ABCD research, it is recommended that you cons
 
 
 
-### How do I access the data?
+## How do I access the data?
 
 ABCD data is managed by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk) and Gladi Thng (j.g.thng@sms.ed.ac.uk). The ABCD Study team have an annual curated data release around November each year. The most recent data release (4.0) was made available in early November 2021. The data managers downloaded this curated data release and converted the .txt files into .Rds files. All of the ABCD files are stored in .Rds format but if you would like the files in .txt format, please get in touch to the data managers. 
 
 The ABCD data is stored on the GenScotDepression DataStore. DataStore is a University computer storage cluster and the GenScotDepression is our designated storage space. GenScotDepresison is managed by Dr Mark Adams (Research Fellow in the Division of Pyschiatry). If you do not already have access to the GenScotDepression DataStore, please get in touch with Mark (mark.adams@ed.ac.uk) and kindly ask him to grant you access to this shared storage. We recommend creating your own personal folder within the user folder, e.g., users/your_name and keeping all your files associated with ABCD there. 
 
 
-## File path for ABCD Data and associated documents 
+### File path for ABCD Data and associated documents 
 
 **The ABCD data is stored at the following folder path: /Volumes/GenScotDepression/data/abcd/release4.0/iii.data**
 
