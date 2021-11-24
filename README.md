@@ -36,11 +36,11 @@ To begin, it is recommended that you consult the following resources before work
 
     The data dictionary is a good resource for checking variable names within specific measures. See "Practical guide" paper for a detailed walk through of the data dictionary. 
     
- 5. Data Exploration Analysis Portal (DEAP; <a href="deap.nimhda.org">deap.nimhda.org<a/>)
+ 5. Data Exploration Analysis Portal (DEAP; <a href="https://deap.nimhda.org/applications/User/login.php?url=/index.php">deap.nimhda.org<a/>)
     
     Researchers with NDA access (your DEAP login details are the same as your NDA ones) are granted access to DEAP a statistical analysis platform wherein researchers can readily engage with the ABCD data, such as exploring variables, downloading data, or running analyses. This is really handy for quickly checking what variables exist within ABCD, and is a bit easier to navigate than the data dictionary. You can also create personalised data frames with variables from different measures (e.g., age, sex, BDI) by adding the variables of interest "to your cart" and then downloading your dataframe as a .Rdata file. This is explained in more detail in the "Practical guide" paper and is a lifesaver for creating covariate dataframes because it saves you from extracting the variables of interest from lots of different individual data frames (i.e., .Rds or .txt files).  
     
-    6. ABCD ReproNim course: https://www.abcd-repronim.org
+    6. ABCD ReproNim course: <a href= "https://www.abcd-repronim.org">https://www.abcd-repronim.org<a/>
 
     This is a fairly lengthy course but is broken up into specific topics and focuses on reproducible analysis methods. It is a good way to familiarise yourself with your research area through an "ABCD lens" and also discusses the design and development of the baseline data collection. 
 
