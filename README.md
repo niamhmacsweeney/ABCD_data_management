@@ -59,7 +59,10 @@ ABCD data is managed by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk) and Gladi T
 The ABCD Study team have an annual curated data release around November each year. The most recent **data release (4.0)** was made available in early November 2021. The data managers downloaded this curated data release and converted the .txt files into .Rds files. All of the ABCD files are stored in .Rds format but if you would like the files in .txt format, please get in touch to the data managers. 
 
 The ABCD data is stored on the GenScotDepression DataStore (**not on the Eddie GenScotDepression**). DataStore is a University computer storage cluster and the GenScotDepression is our designated storage space. GenScotDepresison is managed by Dr Mark Adams (Research Fellow in the Division of Pyschiatry). If you do not already have access to the GenScotDepression DataStore, please get in touch with Mark (mark.adams@ed.ac.uk) and kindly ask him to grant you access to this shared storage. We recommend creating your own personal folder within the user folder, e.g., users/your_name and keeping all your files associated with ABCD there. 
-
+    
+Please note that the copy of the data on DataStore is **read-only** to avoid any accidental changes being made to the data. You should be able to read the data into your analysis software of choice from this file. 
+    
+If anyone is having issues with conflicting working directories in RMarkdown — please get in touch with Niamh (your Rmd file and data need to be in the same working directory which isn't possible with how the ABCD data is stored in DataStore but there is an easy workaround for this!)
 
 ### File path for ABCD Data and associated documents 
 
