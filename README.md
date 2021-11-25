@@ -86,7 +86,8 @@ The ABCD Study team strongly encourage transparent and reproducibible research m
     
 The ABCD study team very much encourage researchers to pre-register their analyses on platforms like the OSF. Further details about pre-registration can be found in the “<a href="https://psyarxiv.com/aqckx"> "Practical guide for researchers" paper </a> linked above. 
     
- ###ABCD Research Topics and Areas of Expertise
+    
+### ABCD Research Topics and Areas of Expertise
     
 Ideally, we would like to create resource whereby group members can list the kinds of ABCD data they have worked with. This could then serve as a directory that people could consult when starting projects and will aid sharing code and expertise within the group. 
     
