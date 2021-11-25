@@ -6,7 +6,7 @@ Compiled by Niamh MacSweeney (niamh.macsweeney@ed.ac.uk). If you spot any errors
 
 The purpose of this manual is to provide you with the information needed to access and work with the ABCD data. You should only access this data if you have been named on the most recent Data User Certificate (DUC) approved by the NDA. If you have any queries about the DUC, please contact niamh.macsweeney@ed.ac.uk or heather.whalley@ed.ac.uk. The most recent DUC is dated November 2021. 
 
-All named recipients on the DUC need to create an NDA acccount with **University of Edinburgh** listed as their institution. You can create a NDA account at this link: https://nda.nih.gov/user/create_account.html
+All named recipients on the DUC need to create an NDA acccount with **University of Edinburgh** listed as their institution. You can create a NDA account : <a href="https://nda.nih.gov/user/create_account.html"> at this link</a>
 
 
 ## Getting Started
