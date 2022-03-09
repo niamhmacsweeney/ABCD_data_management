@@ -84,9 +84,9 @@ In order to understand the data contained within each folder, you need to:
 
 The ABCD Study team strongly encourage transparent and reproducibible research methods. Software like RMarkdown, which allows you to weave together narrative text and code, can be very useful in making your workflow reproducible because you can document each decision made in the data processing and quality control steps. 
     
-    ### Folder Structure for GitHub Repositories
+### Folder Structure for GitHub Repositories
     
-    It is important that we keep a consistent folder organisation structure when working with the ABCD Data. Please adopt the following system and make a detailed ReadMe file for every directory (and maybe even subdirectory depending on the project). 
+It is important that we keep a consistent folder organisation structure when working with the ABCD Data. Please adopt the following system and make a detailed ReadMe file for every directory (and maybe even subdirectory depending on the project). 
     
 Folder Set Up
 There are three main folders:
