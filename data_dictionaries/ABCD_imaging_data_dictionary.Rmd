@@ -1,5 +1,5 @@
 ---
-title: "ABCD imaging phenotypes - data dictionary"
+title: "ABCD structural imaging files - data dictionary"
 author: "Miruna Barbu"
 date: "04/03/2022"
 always_allow_html: true
@@ -26,13 +26,26 @@ library(ggpubr)
 
 ```
 
-### ABCD imaging phenotypess
+### ABCD imaging data files
 
-The following document contains information on ABCD imaging phenotypes, from **release 4.0**. It is a resource that presents what type of information is available, what imaging modalities are available, variables in each modality, and any notes to keep into account. It also includes the latest research on each modality within the ABCD cohort. We would appreciate if new papers are uploaded as they are found, in each modality's section.
+The following document contains information on ABCD imaging data, from **release 4.0**. It is a resource that presents what type of information is available, what imaging modalities are available, variables in each modality, and any notes to keep into account. It also includes the latest research on each modality within the ABCD cohort. We would appreciate if new papers are uploaded as they are found, in each modality's section.
 
 The resource additionally includes the latest information on QC criteria for all modalities. In release 4.0, this has been made especially easy as there is an "img_incl" variable for each modality (more information below).
 
 #### Quality check information
+
+Meeting Prep: What things do we need to consider?
+
+- What files do you need to load? Make a list for each modality and associated QC file (recommended file and short name)
+- What QC variable should you use for each modality (e.g., cortical, subcortical, DTI)? Consult Imaging Release 4.0 Notes 
+- Let's make a standardised QC script (look at Nikolaj and Niamh's - adapted from Shen) 
+- Need to consider covariates for imaging - what are the essential ones, how are we controlling for things like hemisphere, motion, scanner, site? Do we need to do any additional analysis when incorporating these covariates (e.g., testing for interaction effects). 
+- Modelling - ideally, we would have a script that can be used (and understood) by members of the imaging group to examine assocaitions between imaging variables and other constructs of interest (e.g., mental health, puberty, enivonmental factors)
+- GOAL - to have an approved script for imaging QC that all members of group are happy with so that we have a uniform and consistent approach for all our ABCD work. 
+- Ideally, we will apply a similar approach to our statistical models (to be discussed at our stats meeting)
+- Wrap up - let's find a date for our stats meeting. 
+
+
 
 ```{r QC, echo=FALSE}
 
@@ -78,7 +91,11 @@ Two modeling approaches
 
 4. abcd_ddtifp101 : no online data dictionary
 
-#### Cortical and subcortical volumes
+#### Cortical
+
+
+
+#### Subcortical Volumes
 
 ```{r subc, echo=FALSE}
 # Create matrix depicting all variables available for analysis 
@@ -97,7 +114,7 @@ pander(cort_sub,caption="Cortical and subcortical variables in the ABCD cohort."
 
 ##### Recommendations for cortical and subcortical variable use:
 
-#### Resting state
+#### Resting state (maybe we should do this in a separate file)
 
 ##### Recommendations for resting state variable use:
 
