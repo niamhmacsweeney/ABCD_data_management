@@ -84,19 +84,33 @@ In order to understand the data contained within each folder, you need to:
 
 The ABCD Study team strongly encourage transparent and reproducibible research methods. Software like RMarkdown, which allows you to weave together narrative text and code, can be very useful in making your workflow reproducible because you can document each decision made in the data processing and quality control steps. 
     
-The ABCD study team very much encourage researchers to pre-register their analyses on platforms like the OSF. Further details about pre-registration can be found in the “<a href="https://psyarxiv.com/aqckx"> "Practical guide for researchers" paper </a> linked above. 
+    ### Folder Structure for GitHub Repositories
     
-    Local users are expected to consult the available data dictionaries that we have made for department to ensure that they quality control workflows are consistent across users. We appreciate that you may need to diverge from the "standard" QC workflows depending on your research question but if this occurs, please document any changes from the standard protocol and share with the group so that other users can benefit from this knowledge. 
+    It is important that we keep a consistent folder organisation structure when working with the ABCD Data. Please adopt the following system and make a detailed ReadMe file for every directory (and maybe even subdirectory depending on the project). 
     
-    At present, the following data dictionaries are available:
+Folder Set Up
+There are three main folders:
+1. PREP: Scripts for data cleaning and manipulation
+2. ANALY: Scripts for analysis
+3. FUNCTIONS: Functions for use in scripts
+
+File naming system: TYPE_variable_datarelease.filetype  e.g., PREP_pds_R3.0.csv = prep file for pubertal development scale.csv from data release 3.0.
     
-    1. Imaging Quality Control Data Dictionary — this script contains the code needed to QC the structural imaging (T1w and DTI) data from ***Release 4.0***
-        This script was made in line with the release notes from release 4.0 and should be adopted by all local users. 
+### Local Data Dictionaries
+    
+Local users are expected to consult the available local data dictionaries that we have made for department to ensure that the quality control workflows are consistent across users. We appreciate that you may need to diverge from the "standard" QC workflows depending on your research question but if this occurs, please document any changes from the standard protocol and share with the group (e.g., via GitHub repo) so that other users can benefit from this knowledge. 
+    
+At present, the following data dictionaries are available:
+    
+1. “<a href="https://github.com/niamhmacsweeney/ABCD_data_management/blob/main/data_dictionaries/ABCD_imaging_data_dictionary.Rmd"> Imaging Quality Control Data Dictionary" </a> — this script contains the code needed to QC the structural imaging (T1w and DTI) data from **Release 4.0**
+This script was made in line with the release notes from release 4.0 and should be adopted by all local users. 
+    
+2. Depression Measures Data Dictionary 
+    
+3. TBC
     
     
-    While we work towards having a data dictionary for a number of variables commonly used by the department, we encourage you to consult existing github repositories made by department members (see list below). 
-    
-    
+While we work towards having a data dictionary for a number of variables commonly used by the department, we encourage you to consult existing GitHub repositories made by department members (see list below). 
     
     
 ### ABCD Research Topics and Areas of Expertise
