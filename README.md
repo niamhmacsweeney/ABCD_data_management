@@ -86,13 +86,26 @@ The ABCD Study team strongly encourage transparent and reproducibible research m
     
 The ABCD study team very much encourage researchers to pre-register their analyses on platforms like the OSF. Further details about pre-registration can be found in the “<a href="https://psyarxiv.com/aqckx"> "Practical guide for researchers" paper </a> linked above. 
     
+    Local users are expected to consult the available data dictionaries that we have made for department to ensure that they quality control workflows are consistent across users. We appreciate that you may need to diverge from the "standard" QC workflows depending on your research question but if this occurs, please document any changes from the standard protocol and share with the group so that other users can benefit from this knowledge. 
+    
+    At present, the following data dictionaries are available:
+    
+    1. Imaging Quality Control Data Dictionary — this script contains the code needed to QC the structural imaging (T1w and DTI) data from ***Release 4.0***
+        This script was made in line with the release notes from release 4.0 and should be adopted by all local users. 
+    
+    
+    While we work towards having a data dictionary for a number of variables commonly used by the department, we encourage you to consult existing github repositories made by department members (see list below). 
+    
+    
+    
     
 ### ABCD Research Topics and Areas of Expertise
     
 Ideally, we would like to create resource whereby group members can list the kinds of ABCD data they have worked with. This could then serve as a directory that people could consult when starting projects and will aid sharing code and expertise within the group. 
     
     
-   -  Niamh MacSweeney (niamh.macsweeney@ed.ac.uk): Structural (T1, DTI) imaging data; puberty (physical and hormonal) data; depression (KSADS, CBCL) measures; demographic measures. 
+   -  Niamh MacSweeney (niamh.macsweeney@ed.ac.uk): Structural (T1, DTI) imaging data; puberty (physical and hormonal) data; depression (KSADS, CBCL) measures; demographic measures. See Niamh's “<a href="https://github.com/niamhmacsweeney/ABCD_puberty_depression"> github repo" </a> for code associated with the above variables from the Puberty, Brain, Depression Registered Report 
+    
 
 
 ### Acknowledgements 
