@@ -1,0 +1,117 @@
+---
+title: "ABCD imaging phenotypes - data dictionary"
+author: "Miruna Barbu"
+date: "04/03/2022"
+always_allow_html: true
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# Load relevant R packages
+library(readr)
+library(tidyverse)
+library(ggrepel)
+library(RColorBrewer)
+library(grid)
+library(pander)
+library(knitr)
+library(kableExtra)
+library(ggseg)
+library(forcats) # For ordering variables in ggplot in specific order
+library(ggtext)
+library(glue)
+library(tidytext)
+library(ggpubr)
+
+```
+
+### ABCD imaging phenotypess
+
+The following document contains information on ABCD imaging phenotypes, from **release 4.0**. It is a resource that presents what type of information is available, what imaging modalities are available, variables in each modality, and any notes to keep into account. It also includes the latest research on each modality within the ABCD cohort. We would appreciate if new papers are uploaded as they are found, in each modality's section.
+
+The resource additionally includes the latest information on QC criteria for all modalities. In release 4.0, this has been made especially easy as there is an "img_incl" variable for each modality (more information below).
+
+#### Quality check information
+
+```{r QC, echo=FALSE}
+
+
+
+
+```
+
+#### DTI
+
+```{r DTI, echo=FALSE}
+# Create matrix depicting all variables available for analysis 
+
+dti=matrix(c("ABCD dMRI DTI Part 1","ABCD dMRI DTI Part 2", "ABCD dMRI DTI Destrieux Parcellations Part 1","ABCD dMRI DTI Destrieux Parcellations Part 2","ABCD dMRI DTI Full Part 1","ABCD dMRI DTI Full Part 2","ABCD dMRI DTI Full Destrieux Parcellations Part 1","ABCD dMRI DTI Full Destrieux Parcellations Part 2","ABCD dMRI RSI Part 1 (RNI: restricted normalized isotropic)","ABCD dMRI RSI Part 2 (RND: restricted normalized directional)","ABCD dMRI RSI Part 3 (RNT: restricted normalized total)","ABCD dMRI RSI Part 4 (HNI: hindered normalized isotropic)","ABCD dMRI RSI Part 5 (HND: hindered normalized directional)","ABCD dMRI RSI Part 6 (HNT: hindered normalized total)","ABCD dMRI RSI Part 7 (FNI: free normalized isotropic)","abcd_dti_p101","abcd_dti_p201","abcd_ddtidp101","abcd_ddtidp201","abcd_dmdtifp101","abcd_dmdtifp202","abcd_ddtifp101","abcd_ddtifp201","abcd_drsip101","abcd_drsip201","abcd_drsip301","abcd_drsip401","abcd_drsip501","abcd_drsip601","abcd_drsip701","760","425","980","830","767","218","980","840","","","","","","","",
+             "INNER SHELL: Average FA, MD, LD, and TD in DTI atlas; fiber tract volume in mm (DTI atlas); average FA, MD, LD, and TD within ASEG ROIs; average FA, MD, LD, and TD within parcellations of sub-adjacent white matter for cortical ROIs; Average FA and MD within parcellations of gray matter for cortical ROIs",
+             "INNER SHELL: Average LD and TD in cortical gray matter; Average FA, MD, LD, and TD in gray-white matter contrast",
+             "INNER SHELL: Average FA, MD, TD, and LD in white matter; Average FA, MD, and LD in gray matter; all within Destrieux Atlas",
+             "INNER SHELL: Average TD in gray matter within Destrieux Atlas; Average FA, MD, LD, and TD in gray-white matter contrast within Destriux Atlas ",
+             "FULL SHELL: Average FA, MD, LD, and TD in DTI atlas; fiber tract volume in mm (DTI atlas); average FA, MD, LD, and TD within ASEG ROIs; average FA, MD, LD, and TD within parcellations of sub-adjacent white matter for cortical ROIs; Average FA and MD within parcellations of gray matter for cortical ROIs",
+             "FULL SHELL: Average FA, MD, LD, and TD in gray-white matter contrast",
+             "FULL SHELL: Average FA, LD, TD, and MD within parcellations of sub-adjacent white matter; FA, LD, and MD within parcellations of gray matter (Destrieux Atlas",
+             "FULL: Average LD and TD in grey matter (Destrieux Atlas); Average FA, MD, LD, and TD in gray-white matter contrast (Destrieux Atlas)","","","","","","",""),nrow=15,ncol=4)
+  
+colnames(dti)[1:4]<-c("Name of instrument","Short name","N variables","Description")
+
+pander(dti,caption="DTI variables in the ABCD cohort.", row.names=F)
+
+```
+
+##### Recommendations for DTI variable use:
+
+1. Full and inner shell derivation of DTI measures: differences between the two (taken from dMRI release 4.0)
+
+Two modeling approaches
+
+● DTI inner shell (DTIIS): b values > 1000 excluded from tensor fitting to avoid need for nonlinear estimation; metric prefix is “dti”
+
+● DTI full shell (DTIFS): all b values used in the tensor fitting; metric prefix is “dti_full”
+
+2. abcd_ddtidp101 and abcd_ddtidp201: transverse diffusivity in gray matter is in abcd_ddtidp201, while FA, MD, and LD all in abcd_ddtidp101.
+
+3. Release notes: noted as abcd_dmdtifp202; dataset + ABCD data dictionary: abcd_dmdtifp201
+
+4. abcd_ddtifp101 : no online data dictionary
+
+#### Cortical and subcortical volumes
+
+```{r subc, echo=FALSE}
+# Create matrix depicting all variables available for analysis 
+
+# Variables: 
+# cortical regions in mm and  weighted average cortical regions
+# for thickness, volume, surf area, sulcal depth
+
+cort_sub=matrix(c("ABCD sMRI Part 1","ABCD sMRI Part 2", "ABCD sMRI Part 3","ABCD sMRI Destrieux Parcellation Part 1","ABCD sMRI Destrieux Parcellation Part 2","ABCD sMRI Destrieux Parcellation Part 3","abcd_smrip102","abcd_smrip202","abcd_smrip302","abcd_mrisdp102","abcd_mrisdp202","abcd_mrisdp302","474","360","360","604","604","452","Measurement in mm and weighted-average (genetically derived parcellation with multiple clusters) for: thickness, volume, surface area, sulcal depth; subcortical volumes measurements","Average and weighted-mean T1 intensity of white matter and gray matter; cort-contrast white and gray matter (genetically derived parcellation with multiple clusters)","Average and weighted-mean T2 intensity of white matter and gray matter; cort-contrast white and gray matter (genetically derived parcellation with multiple clusters)","Measurement in mm mapped to Destrieux atlas for: thickness, volume, surface area, sulcal depth","Average and weighted-mean T1 intensity of white matter and gray matter; cort-contrast white and gray matter (genetically derived parcellation with multiple clusters); all mapped to Destrieux atlas","Average and weighted-mean T2 intensity of white matter and gray matter; cort-contrast white and gray matter (genetically derived parcellation with multiple clusters); all mapped to Destrieux atlas"),nrow=6,ncol=4)
+  
+colnames(cort_sub)[1:4]<-c("Name of instrument","Short name","N variables","Description")
+
+pander(cort_sub,caption="Cortical and subcortical variables in the ABCD cohort.", row.names=F) 
+  
+```
+
+##### Recommendations for cortical and subcortical variable use:
+
+#### Resting state
+
+##### Recommendations for resting state variable use:
+
+### Latest research 
+
+#### General methods articles
+
+[Image processing and analysis methods for the Adolescent Brain Cognitive Development Study, Hagler et al. 2019](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6981278/)
+
+#### Used in research
+
+[(PREPRINT) White matter microstructure shows sex differences in late childhood: Evidence from 6,797 children, Lawrence et al. 2021](https://www.biorxiv.org/content/10.1101/2021.08.19.456728v1.abstract)
+
+[Psychotic-like Experiences and Polygenic Liability in the Adolescent Brain Cognitive Development Study, Karcher et al. 2022](https://www.sciencedirect.com/science/article/pii/S2451902221001919?via%3Dihub)
+
+
+
