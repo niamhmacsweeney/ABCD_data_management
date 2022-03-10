@@ -1,6 +1,6 @@
 ABCD structural imaging files - data dictionary
 ================
-Miruna Barbu
+Miruna Barbu, Niamh MacSweeney, Nikolaj Høier
 04/03/2022
 
 ### ABCD imaging data files
