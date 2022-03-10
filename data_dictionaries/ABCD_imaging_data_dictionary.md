@@ -23,16 +23,41 @@ below).
 Meeting Prep: What things do we need to consider?
 
 -   What files do you need to load? Make a list for each modality and
-    associated QC file (recommended file and short name)
+    associated QC file (recommended file and short name) - done. 
 -   What QC variable should you use for each modality (e.g., cortical,
     subcortical, DTI)? Consult Imaging Release 4.0 Notes
+    
 -   Let’s make a standardised QC script (look at Nikolaj and Niamh’s -
     adapted from Shen)
+    
 -   Need to consider covariates for imaging - what are the essential
     ones, how are we controlling for things like hemisphere, motion,
     scanner, site? Do we need to do any additional analysis when
     incorporating these covariates (e.g., testing for interaction
     effects).
+    
+    Motion - covariate for motion in the models - is the motion greater between groups. (e.g. mean motion variable)
+    not corrected for in structural data in UKB (T1 scans much shorter). 
+    
+    Automated QC is good enough - follow release notes. 
+    
+    Hemisphere - what approach should we take?
+    - combining measures across hemipshere - Treating hemisphere as a random effect.
+    - Testing hemisphere interaction - incorpoate into script 
+    - If there isn't an interaction, consider using mean value for hemisphere and sticking to a glm 
+    - Consider hypothesis as well in this (is there an effect of laterality?)
+    - 
+    - FDR correction - if there an interaction effect, you will need to do FDR per hemisphere (e.g., Left and right amygdala).
+    - Scanner and site: Site accounts for more than scanner, sensitivity analysis for scanner. Correct covariate is scanner_id - get variables name 
+    - Site as a proxy for behavioural measures, using scanner_id as a measure of variance in scanning.
+    - Scanner id may already contain site effects. 
+    
+    Variable types:
+    -standardise the measures used in terms of variables. 
+    Make a list of those available and the ones that we have chosen to use and why we are using them - with reference to existing literature. 
+    
+    
+
 -   Modelling - ideally, we would have a script that can be used (and
     understood) by members of the imaging group to examine assocaitions
     between imaging variables and other constructs of interest (e.g.,
