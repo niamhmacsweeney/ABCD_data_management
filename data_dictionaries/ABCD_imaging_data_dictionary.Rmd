@@ -1,6 +1,6 @@
 ---
 title: "ABCD structural imaging files - data dictionary"
-author: "Miruna Barbu"
+author: "Miruna Barbu" "Niamh MacSweeney" and Nikolaj Høier
 date: "04/03/2022"
 always_allow_html: true
 output: github_document
