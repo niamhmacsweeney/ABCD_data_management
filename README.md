@@ -26,12 +26,9 @@ Once you have an idea of existing ABCD research, it is recommended that you cons
     You are also encouraged to consult existing literature that uses ABCD data to see if there are any published guidelines or protocols for your variables of interest. For example, guidelines for working with the imaging (e.g., <a href="https://doi.org/10.1016/j.neuroimage.2019.116091">Hagler et al., 2019</a> ;<a href="https://doi.org/10.1038/s41593-021-00867-9"> Chaarani et al., 2021</a>), cognition (<a href="https://doi.org/10.1016/j.dcn.2018.02.006">Luciana et al., 2018</a>), puberty measures (<a href="https://doi.org/10.3389/fendo.2021.608575">Cheng et al., 2021</a>; <a href="https://dx.doi.org/10.3389%2Ffendo.2020.549928">Herting & Uban, et al., 2021</a>), assessment of culture and environment (<a href="https://doi.org/10.1016/j.dcn.2021.101021">Gonzales et al., 2021</a>) and substance use behavior (<a href="https://doi.org/10.1016/j.dcn.2018.02.007">Lisdahl et al., 2018</a>) have been published to date.
 
 
-2. This preprint: “<a href="https://psyarxiv.com/aqckx"> A practical guide for researchers and reviewers using the ABCD Study and other large longitudinal datasets</a> 
+2. This paper: “<a href="https://www.sciencedirect.com/science/article/pii/S1878929322000585"> A practical guide for researchers and reviewers using the ABCD Study and other large longitudinal datasets</a> 
 
     This paper is intended as a guide for researchers and reviewers working with ABCD data, highlighting the features of the data (and the strengths and limitations therein) as well as relevant analytical and methodological considerations. It arose out of discussions from the Modelling Developmental Change ABCD Workshop held in July 2021. It is strongly encouraged that you consult this document when designing your ABCD project as the information contained within provides an excellent (and fairly comprehensive) framework to ease you into working with large, multi-modal datasets like ABCD. It also goes into greater details about the resources listed below (e.g., ABCD workshop, data dictionary, DEAP etc.) 
-    
-    
-    **NOTE** - The paper is currently under review at Developmental Cognitive Neuroscience as a Next Gen Tools paper. This page will be updated once the final version is available. 
     
     
 3. Modelling Developmental Change ABCD Workshop Website:  <a href="https://abcdworkshop.github.io">https://abcdworkshop.github.io</a>
